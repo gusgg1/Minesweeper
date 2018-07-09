@@ -4,6 +4,7 @@
 
 ###### This is the first project for the *Build Front-End Web Applications from Scratch* intensive course.
 
+* For this project I use Babel as a devDpendency for the transpilation of the ES6 JS.
 * To play Minesweeper, we will create instances of the minesweeper game in the command line:
   * In the command line, navigate to the lib directory and run `node`
   * Run `.load game.js` to load the contents of this file.
