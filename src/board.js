@@ -1,5 +1,3 @@
-
-
 export class Board {
   constructor(numberOfRows, numberOfColums, numberOfBombs) {
     this._numberOfBombs = numberOfBombs;
@@ -93,7 +91,6 @@ export class Board {
   
     let numberOfBombsPlaced = 0;
     while (numberOfBombsPlaced < numberOfBombs) {
-      // An important note: The code in your while loop has the potential to place bombs on top of already existing bombs. This will be fixed when you learn about control flow.
       let randomRowIndex = Math.floor(Math.random() * numberOfRows);
       let randomColumIndex = Math.floor(Math.random() * numberOfColums);
   
@@ -105,4 +102,4 @@ export class Board {
     return board;
   }  
 
-} // end of class
+} 
