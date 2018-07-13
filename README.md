@@ -4,8 +4,8 @@
 
 ###### This is the first project for the *Build Front-End Web Applications from Scratch* intensive course.
 
-##### To run this project, download project files and follow instrcutions below
-* For this project I use Babel as a devDpendency for the transpilation of the ES6 JS.
+##### To run this project, download project files and follow instructions below
+* For this project I used Babel as a devDpendency for the transpilation of the ES6 JS.
   * `npm run build` will transpile the code from the `src` directory into the `lib` directory.
 * To play Minesweeper, we will create instances of the minesweeper game in the command line:
   * In the command line, navigate to the lib directory and run `node`
